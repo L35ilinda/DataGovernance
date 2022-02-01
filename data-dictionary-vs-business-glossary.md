@@ -1,3 +1,6 @@
+
+# Data Dictionary vs. Business Glossary: Benefits, Challenges, and Solutions
+
 In your organization, are you ever confused by different definitions of business terms? Do you ever wonder why the number of customers differs between two reports?
 I’m going to assume the answer is “yes.” And you are not alone.
 
@@ -5,10 +8,10 @@ As an organization evolves, it’s natural for the language to evolve, too. That
 This is where a data dictionary and business glossary become useful for getting both your business and IT teams on the same page.
 Calvin and Hobes comic snippet where Calvin is asking Hobes the definition to a long word.
 
-## What is a data dictionary?
+### What is a data dictionary?
 A data dictionary defines and describes technical data terms. Data terms could be database schemas, tables, or columns. It may include information about the data type, size, default values, constraints, relationships to other data, and the meaning or purpose of a given asset.
 
-## Who benefits from a data dictionary?
+### Who benefits from a data dictionary?
 Data dictionaries are designed for more technical audiences, like IT or data scientists.
 
 These folks will reference the data dictionary to understand data elements, which allows them to manage, move, merge, and analyze data with clarity.
@@ -38,24 +41,29 @@ On the surface, both sound easy and straightforward to develop. But there are in
 
 ### Data Dictionary Challenges
 For a data dictionary, the volume of new data is constantly increasing. This makes it difficult to keep up with all the new data elements that need to be defined. To keep pace, IT or database administrators may automate data dictionary maintenance. Automation helps IT build and preserve the integrity of the data dictionary.
-Business Glossary Challenges
+
+### Business Glossary Challenges
 For a business glossary, it’s important to assign ownership. Definitions may differ depending on context or team. You must ask:
 Who is responsible for defining the terms?
 Are definitions set by one person or by group consensus?
 Is there an approval process?
 These challenges require both a robust process and tool to manage a business glossary.
 
-How to use a data dictionary and business glossary with Alation
+### How to use a data dictionary and business glossary with Alation
+
 Alation is a machine learning data catalog. Once connected to data sources in the environment, Alation automatically indexes data and populates catalog pages by source. Let’s take a look at how the Alation Data Dictionary and Business Glossary produce and simplify vocabulary complexities:
 
-The Alation Data Dictionary
+### The Alation Data Dictionary
 In the example below, a data dictionary of columns in the “metrics” table has been generated. In Alation, this is what a data dictionary looks like:
 Alation's data dictionary displaying the columns section.
 This table shows the technical column name, a business title name, the data type, and popularity. Users can click on the blue column links to get more information and context about the columns.
+
 Machine Learning and the Behavioral Analysis Engine (BAE)
 Note that the business “Title” names are auto-titled. Machine learning translates the technical column names into natural human language. For example, “ts_created” has been identified as “Timestamp Created” by the machine and confirmed by a person. This is indicated by the green robot head, AKA Allie.
 “Popularity” is an Alation-specific measure of how much the column has been searched and queried by the users. This is calculated automatically through Alation’s Behavioral Analysis Engine (BAE). It does so by accounting for how frequently and recently the columns have been used.
 Having insight into the popularity of data is useful. This is because it lets people know what data is most worthy of their attention. It also offers insight into the data that is most trusted, a good indicator of quality.
-The Alation Business Glossary
+
+### The Alation Business Glossary
+
 The business glossary in Alation is more than a place to look up terms and definitions, or assign owners. There are some unique features that make Alation’s business glossary easier to manage and scale. Each glossary is made up of a collection of terms. For example, the “Financial KPI Metrics” glossary may include terms for “EBIT”, “CACC”, and ‘“Debt-to-equity” ratio. The Glossary columns can be customized for different fields, such as”‘Author”, “Description”, or “Status.”
 To keep the glossary layout consistent, templates can be applied so that all terms contain the same useful information.
